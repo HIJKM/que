@@ -1,0 +1,32 @@
+# local state
+.venv/
+assets/fonts/
+
+# private operating notes (kept on disk for local agents)
+docs/agent-context/
+AGENTS.md
+CLAUDE.md
+
+# local production helper; not part of the public repo
+/deploy.sh
+__pycache__/
+*.pyc
+data.db
+logs/
+auth.json
+auth_secret.env
+*.bak.*
+auth.json.bak.*
+*.env
+
+# frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# system
+.DS_Store
+*.tsbuildinfo
+models/tts/
+:memory:.ses
